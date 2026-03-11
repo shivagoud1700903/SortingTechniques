@@ -123,7 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SortingTechniques.cpp" />
+    <ClCompile Include="bubble.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="selection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sortingpractise.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
